@@ -8,16 +8,16 @@ import Store from '../data/Store';
 import './styles.css';
 
 function App() {
-  return (
-    <Store>
-      <div className="app">
-        <Router>
-          <Menu />
-          <Content />
-        </Router>
-      </div>
-    </Store>
-  );
+return (
+<Store>
+  <div className="app">
+    <Router>
+      <Menu />
+      <Content />
+    </Router>
+  </div>
+</Store>
+);
 }
 
 export default App;
